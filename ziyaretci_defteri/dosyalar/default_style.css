@@ -1,0 +1,291 @@
+/* Page body */
+body{
+    background-image: url();
+	background-color: #EDEDED;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+/* Text for most CSS classes */
+.text, .smText, .error, a, a.smLink, a.nav, a.msgLink, a.tLink, .WebWizRTEtextarea, .basicTable, .errorTable, .tableLedger, .tableSubLedger, .tableSearchLedger, .tableRow, .tableTopRow, .tableBottomRow, .evenTableRow, .oddTableRow, .hiddenTableRow, .PMtableRow, .PMmsgBody, .msgBody, .msgEvenTableRow, .msgOddTableRow, .msgHiddenTableRow, .msgOddTableSide, .msgEvenTableSide, .msgSignature, .calLedger, .calDateCell, .calTodayCell, .BBquote, .BBcode {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color : #000000;
+	font-weight: normal;
+	font-size: 11px;
+}
+.lgText, .heading{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-weight: bold;
+
+}
+/* Now */
+.now{
+    font-family: Verdana;
+	color: #000000;
+	font-size: 7pt;
+	font-weight: normal;
+	background-image: url(date_login.gif);
+	background-color: #EFEFEF
+}
+/* Text */
+.smText{
+	font-size: 10px;
+}
+
+
+
+/* Hyperlinks */
+a:link {
+	color : #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited{
+	color : #000000;
+	text-decoration : none;
+	font-weight: bold;
+}
+
+a:hover, a:visited:hover{
+	color : #FFCC00;
+	text-decoration : underline;
+}
+
+a.smLink {
+	font-size: 10px;
+}
+
+/* navigation hyperlinks */
+a.nav, a.nav:visited{
+	color : #FFFFFF;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+a.nav:hover, a.nav:visited:hover{
+	color : #FFFFFF;
+	text-decoration : none;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/* Misc */
+ul{
+	list-style-type: circle;
+}
+
+
+a img,:link img,:visited img{
+	border:none 
+}
+
+
+
+	
+/* Tablo Sutun */
+.tbl1{
+    background: #EDEDED;
+	border-bottom: #C8C6C6 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-top: #FFFFFF 1px solid;
+	border-right: #C8C6C6 1px solid;
+    
+}
+.tbl2{
+    background: #F9F9F9;
+	border-bottom: #C8C6C6 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-top: #FFFFFF 1px solid;
+	border-right: #C8C6C6 1px solid;
+
+    
+}
+.tbl3{
+	border: 1px solid #C8C6C6;
+	background-color: #EDEDED;
+	width: 892px;
+    background: #FFFFFF;   
+}
+.tbl4{
+	border: 1px solid #C8C6C6;
+	background-color: #EDEDED;
+	width: 892px;
+}
+
+/* Tables */
+.basicTable{
+	border: 0px;
+	width: 98%;
+}
+
+.errorTable{
+	border: 1px solid #808080;
+	background-color: #EFEFEF;
+	width: 98%;
+	color: #CC0000;
+}
+
+.tableBorder, .wwgAdTable{
+	border: 1px solid #C8C6C6;
+	background-color: #;
+	width: 98%;
+}
+
+/* Table Ledger */
+.tableLedger{
+	height: 25px;
+	_height: 19px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color : #FFFFFF;
+	font-size: 11px;
+	background-image: url(table_bg_image.gif);
+	background-color:#dedede;
+}
+
+.tableLedger a:link, .tableLedger a:visited{
+	color : #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.tableLedger a:hover, .tableLedger a:visited:hover{
+	color : #000000;
+	text-decoration : underline;
+	font-weight: bold;
+}
+
+/* Search Sub-Ledger */
+.tableSubLedger{
+	height: 28px;
+	_height: 22px;
+	font-weight: bold;
+	color : #000000;
+	background-image: url(table_bg.gif); 
+	background-color:#dedede;
+	
+}
+
+.tableSubLedger a:link, .tableSubLedger a:visited{
+	color : #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.tableSubLedger a:hover, .tableSubLedger a:visited:hover{
+	color : #000000;
+	text-decoration : underline;
+	font-weight: bold;
+}
+
+
+.postSeparatorTableRow{
+	height: 10px;
+	background-color: #BE1515;
+}
+
+/* Takvim */
+.tableBordercalLedger, .wwgAdTable{
+        border: 2px solid #C8C6C6;
+	background-color: #EDEDED;
+	width: 100%;
+}
+
+/* Calendar */
+.calLedger{
+	font-weight: bold;
+	background-image: url(table_bg.gif); 
+	background-color:#dedede;
+	padding:4px;
+}
+.calLedger a:link, .calLedger a:visited{
+	color : #000000;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.calLedger a:hover, .calLedger a:visited:hover{
+	color : #000000;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.calDateCell{
+	background-color: #EDEDED;
+}
+
+.calTodayCell{
+background-color: #E0B3B3;
+	border:1px solid #D00000;	
+}
+
+.calEmptyDateCell{
+	background-color: #FFFFFF;
+}
+
+/* BBcode blocks */
+.BBquote{
+	border: 1px dotted #999999;
+	background-color: #FFFFFF;
+	width: 892px;
+	padding: 5px;
+	margin: 8px 0px;
+	text-align: left;
+	overflow: auto;
+	display: block;
+	padding: 5px;
+}
+
+.BBcode{
+	font-family: Courier New, Courier, mono;
+	border: 1px dashed #999999;
+	width: 892px;
+	padding: 5px;
+	margin: 8px 0px;
+	text-align: left;
+	overflow: auto;
+	display: block;
+	padding: 5px;
+}
+/* Üye Giriþ kabul ekraný */
+
+ 
+.div{
+	font-family: Courier New, Courier, mono;
+	background-image: url();
+	background-color: #F9F9F9;
+	border-style: outset;
+    border-width: 3px"
+	margin: 8px 0px;
+	text-align: left;
+	overflow: auto;
+	display: block;
+	
+}
+/* Forum ads */
+/* WARNING: Changing the adverts so they are no-longer visable or readable will break the terms of the license agreement */
+
+.wwgAdTD {
+	background-color: #EFEFEF;
+}
+
+.wwgAdTitle a:link, .wwgAdTitle a:visited, .wwgAdTitle a:hover, .wwgAdTitle a:visited:hover{
+	color : #000000;
+	text-decoration: underline;
+}
+
+.wwgAdFooter{
+	color: #FFFFFF;
+	background-color: #F9F9F9;
+}
+
+.wwgAdFooter a:link, .wwgAdFooter a:visited, .wwgAdFooter a:hover, .wwgAdFooter a:visited:hover{
+	color : #000000;
+	text-decoration: none;
+	font-weight: normal;
+}

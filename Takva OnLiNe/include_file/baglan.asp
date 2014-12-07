@@ -1,0 +1,2 @@
+<% Set baglan = Server.CreateObject("ADODB.Connection")
+baglan.Open "DRIVER={Microsoft Access Driver (*.mdb)};DBQ=" & Server.MapPath("XlhGyAeRT_GfDsZrTyUoHlK_ggggggg_ZekFGyH/uye_databasessss30917983619786237812.mdb") %>

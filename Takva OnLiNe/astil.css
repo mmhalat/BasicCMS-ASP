@@ -1,0 +1,42 @@
+<style>
+.stil1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: <%=ayar("stil1")%>;
+	text-docaration: none;
+}
+.stil2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    font-weight: bold;
+	color: <%=ayar("stil2")%>;
+}
+.stil3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: <%=ayar("stil3")%>;
+}
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: <%=ayar("link")%>;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: <%=ayar("link")%>;
+	text-decoration: none;
+	}
+.text_field {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+}
+.button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #000000;
+}
+</style>

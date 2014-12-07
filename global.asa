@@ -1,0 +1,19 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+Sub Application_OnStart
+Application("online") = 0
+End Sub
+Sub Application_OnEnd
+End Sub
+Sub Session_OnStart
+Session.Timeout = 5
+Session("Start") = Now
+Application.lock
+Application("online") = Application("online") + 1
+Application.unlock
+End Sub
+Sub Session_OnEnd
+Application.lock
+Application("online") = Application("online") - 1
+Application.unlock
+End Sub
+</SCRIPT>

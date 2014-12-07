@@ -1,0 +1,16 @@
+<%function Temiz(gelen)
+gelen = replace(gelen,vbCrLf,"<br>",1,-1,1)
+gelen = replace(gelen,"ç","&#231;",1,-1,0)
+gelen = replace(gelen,"ý","&#305;",1,-1,0)
+gelen = replace(gelen,"ð","&#287;",1,-1,0)
+gelen = replace(gelen,"ö","&#246;",1,-1,0)
+gelen = replace(gelen,"þ","&#351;",1,-1,0)
+gelen = replace(gelen,"ü","&#252;",1,-1,0)
+gelen = replace(gelen,"Ç","&#199;",1,-1,0)
+gelen = replace(gelen,"Ý","&#304;",1,-1,0)
+gelen = replace(gelen,"Ð","&#208;",1,-1,0)
+gelen = replace(gelen,"Ö","&#214;",1,-1,0)
+gelen = replace(gelen,"Þ","&#350;",1,-1,0)
+gelen = replace(gelen,"Ü","&#220;",1,-1,0)
+Temiz = gelen
+end function%>
